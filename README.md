@@ -9,6 +9,9 @@ PieChart
 
 
 ![image](https://github.com/Lian1990/ChartOne/blob/master/PiechartsDemo/singleCircle.gif)
+
+
+
 动画2
 
 
