@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7FE2811C842A2D0097706A /* PiechartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7FE2801C842A2D0097706A /* PiechartModel.m */; };
+		FB97824A1C7D9A4800943C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9782491C7D9A4800943C56 /* main.m */; };
+		FB97824D1C7D9A4800943C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB97824C1C7D9A4800943C56 /* AppDelegate.m */; };
+		FB9782501C7D9A4800943C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB97824F1C7D9A4800943C56 /* ViewController.m */; };
+		FB9782531C7D9A4800943C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9782511C7D9A4800943C56 /* Main.storyboard */; };
+		FB9782551C7D9A4800943C56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9782541C7D9A4800943C56 /* Images.xcassets */; };
+		FB9782581C7D9A4800943C56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB9782561C7D9A4800943C56 /* LaunchScreen.xib */; };
+		FB9782641C7D9A4800943C56 /* PiechartsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9782631C7D9A4800943C56 /* PiechartsDemoTests.m */; };
+		FB97826F1C7D9A7300943C56 /* PiechartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB97826E1C7D9A7300943C56 /* PiechartView.m */; };
+		FBF01FCA1C7EF3C800115DC9 /* PiechartDetchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF01FC91C7EF3C800115DC9 /* PiechartDetchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB97825E1C7D9A4800943C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB97823C1C7D9A4800943C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9782431C7D9A4800943C56;
+			remoteInfo = PiechartsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7FE27F1C842A2D0097706A /* PiechartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiechartModel.h; sourceTree = "<group>"; };
+		FB7FE2801C842A2D0097706A /* PiechartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiechartModel.m; sourceTree = "<group>"; };
+		FB9782441C7D9A4800943C56 /* PiechartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiechartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9782481C7D9A4800943C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9782491C7D9A4800943C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB97824B1C7D9A4800943C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB97824C1C7D9A4800943C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB97824E1C7D9A4800943C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB97824F1C7D9A4800943C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB9782521C7D9A4800943C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9782541C7D9A4800943C56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB9782571C7D9A4800943C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB97825D1C7D9A4800943C56 /* PiechartsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiechartsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9782621C7D9A4800943C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9782631C7D9A4800943C56 /* PiechartsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiechartsDemoTests.m; sourceTree = "<group>"; };
+		FB97826D1C7D9A7300943C56 /* PiechartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiechartView.h; sourceTree = "<group>"; };
+		FB97826E1C7D9A7300943C56 /* PiechartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiechartView.m; sourceTree = "<group>"; };
+		FBF01FC81C7EF3C800115DC9 /* PiechartDetchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiechartDetchView.h; sourceTree = "<group>"; };
+		FBF01FC91C7EF3C800115DC9 /* PiechartDetchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiechartDetchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9782411C7D9A4800943C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97825A1C7D9A4800943C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB97823B1C7D9A4800943C56 = {
+			isa = PBXGroup;
+			children = (
+				FB9782461C7D9A4800943C56 /* PiechartsDemo */,
+				FB9782601C7D9A4800943C56 /* PiechartsDemoTests */,
+				FB9782451C7D9A4800943C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9782451C7D9A4800943C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9782441C7D9A4800943C56 /* PiechartsDemo.app */,
+				FB97825D1C7D9A4800943C56 /* PiechartsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9782461C7D9A4800943C56 /* PiechartsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB97824B1C7D9A4800943C56 /* AppDelegate.h */,
+				FB97824C1C7D9A4800943C56 /* AppDelegate.m */,
+				FB97824E1C7D9A4800943C56 /* ViewController.h */,
+				FB97824F1C7D9A4800943C56 /* ViewController.m */,
+				FB97826D1C7D9A7300943C56 /* PiechartView.h */,
+				FB97826E1C7D9A7300943C56 /* PiechartView.m */,
+				FBF01FC81C7EF3C800115DC9 /* PiechartDetchView.h */,
+				FBF01FC91C7EF3C800115DC9 /* PiechartDetchView.m */,
+				FB7FE27F1C842A2D0097706A /* PiechartModel.h */,
+				FB7FE2801C842A2D0097706A /* PiechartModel.m */,
+				FB9782511C7D9A4800943C56 /* Main.storyboard */,
+				FB9782541C7D9A4800943C56 /* Images.xcassets */,
+				FB9782561C7D9A4800943C56 /* LaunchScreen.xib */,
+				FB9782471C7D9A4800943C56 /* Supporting Files */,
+			);
+			path = PiechartsDemo;
+			sourceTree = "<group>";
+		};
+		FB9782471C7D9A4800943C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9782481C7D9A4800943C56 /* Info.plist */,
+				FB9782491C7D9A4800943C56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB9782601C7D9A4800943C56 /* PiechartsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9782631C7D9A4800943C56 /* PiechartsDemoTests.m */,
+				FB9782611C7D9A4800943C56 /* Supporting Files */,
+			);
+			path = PiechartsDemoTests;
+			sourceTree = "<group>";
+		};
+		FB9782611C7D9A4800943C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9782621C7D9A4800943C56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9782431C7D9A4800943C56 /* PiechartsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9782671C7D9A4800943C56 /* Build configuration list for PBXNativeTarget "PiechartsDemo" */;
+			buildPhases = (
+				FB9782401C7D9A4800943C56 /* Sources */,
+				FB9782411C7D9A4800943C56 /* Frameworks */,
+				FB9782421C7D9A4800943C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiechartsDemo;
+			productName = PiechartsDemo;
+			productReference = FB9782441C7D9A4800943C56 /* PiechartsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB97825C1C7D9A4800943C56 /* PiechartsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97826A1C7D9A4800943C56 /* Build configuration list for PBXNativeTarget "PiechartsDemoTests" */;
+			buildPhases = (
+				FB9782591C7D9A4800943C56 /* Sources */,
+				FB97825A1C7D9A4800943C56 /* Frameworks */,
+				FB97825B1C7D9A4800943C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB97825F1C7D9A4800943C56 /* PBXTargetDependency */,
+			);
+			name = PiechartsDemoTests;
+			productName = PiechartsDemoTests;
+			productReference = FB97825D1C7D9A4800943C56 /* PiechartsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB97823C1C7D9A4800943C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.Alice;
+				TargetAttributes = {
+					FB9782431C7D9A4800943C56 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FB97825C1C7D9A4800943C56 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FB9782431C7D9A4800943C56;
+					};
+				};
+			};
+			buildConfigurationList = FB97823F1C7D9A4800943C56 /* Build configuration list for PBXProject "PiechartsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB97823B1C7D9A4800943C56;
+			productRefGroup = FB9782451C7D9A4800943C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9782431C7D9A4800943C56 /* PiechartsDemo */,
+				FB97825C1C7D9A4800943C56 /* PiechartsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9782421C7D9A4800943C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9782531C7D9A4800943C56 /* Main.storyboard in Resources */,
+				FB9782581C7D9A4800943C56 /* LaunchScreen.xib in Resources */,
+				FB9782551C7D9A4800943C56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97825B1C7D9A4800943C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9782401C7D9A4800943C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF01FCA1C7EF3C800115DC9 /* PiechartDetchView.m in Sources */,
+				FB97826F1C7D9A7300943C56 /* PiechartView.m in Sources */,
+				FB9782501C7D9A4800943C56 /* ViewController.m in Sources */,
+				FB97824D1C7D9A4800943C56 /* AppDelegate.m in Sources */,
+				FB97824A1C7D9A4800943C56 /* main.m in Sources */,
+				FB7FE2811C842A2D0097706A /* PiechartModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9782591C7D9A4800943C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9782641C7D9A4800943C56 /* PiechartsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB97825F1C7D9A4800943C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9782431C7D9A4800943C56 /* PiechartsDemo */;
+			targetProxy = FB97825E1C7D9A4800943C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB9782511C7D9A4800943C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9782521C7D9A4800943C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB9782561C7D9A4800943C56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9782571C7D9A4800943C56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9782651C7D9A4800943C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB9782661C7D9A4800943C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9782681C7D9A4800943C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiechartsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customer.PiechartsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB9782691C7D9A4800943C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiechartsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.customer.PiechartsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB97826B1C7D9A4800943C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiechartsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiechartsDemo.app/PiechartsDemo";
+			};
+			name = Debug;
+		};
+		FB97826C1C7D9A4800943C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiechartsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiechartsDemo.app/PiechartsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB97823F1C7D9A4800943C56 /* Build configuration list for PBXProject "PiechartsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9782651C7D9A4800943C56 /* Debug */,
+				FB9782661C7D9A4800943C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9782671C7D9A4800943C56 /* Build configuration list for PBXNativeTarget "PiechartsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9782681C7D9A4800943C56 /* Debug */,
+				FB9782691C7D9A4800943C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB97826A1C7D9A4800943C56 /* Build configuration list for PBXNativeTarget "PiechartsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97826B1C7D9A4800943C56 /* Debug */,
+				FB97826C1C7D9A4800943C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB97823C1C7D9A4800943C56 /* Project object */;
+}
